@@ -1,0 +1,16 @@
+# Core dependencies. mol_core.py, hydrogen_redistribution.py, and
+# recurrent_ion_discovery.py are pure standard library (deliberately, since
+# RDKit/OpenBabel were not available in the original development
+# environment) and need nothing beyond the Python standard library.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+
+# Optional, for reading/writing figures at higher fidelity or additional
+# formats; not required for core analysis.
+Pillow>=10.0
+
+# Optional, only needed for notebooks/walkthrough.ipynb itself
+# (the notebook can also be read as JSON / converted with nbconvert)
+jupyter>=1.0

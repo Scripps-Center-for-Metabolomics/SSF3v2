@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or the accompanying data, please cite the
+  manuscript below. [PLACEHOLDER -- confirm all fields before publishing.]
+title: >-
+  SSF3: Convergent Fragmentation and Hydrogen Redistribution Limit
+  Structure-Spectrum Fidelity Across the METLIN Reference Library
+  [CONFIRM EXACT TITLE]
+type: software
+authors:
+  - family-names: "[CONFIRM]"
+    given-names: "[CONFIRM]"
+    affiliation: "Scripps Center for Metabolomics and Mass Spectrometry, The Scripps Research Institute"
+    orcid: "[CONFIRM]"
+  # Add remaining authors in manuscript order
+repository-code: "[CONFIRM GITHUB URL ONCE REPOSITORY IS CREATED]"
+license: MIT
+version: "1.0.0"
+date-released: "[CONFIRM RELEASE DATE]"
+preferred-citation:
+  type: article
+  title: >-
+    [CONFIRM EXACT MANUSCRIPT TITLE -- see manuscript title page]
+  authors:
+    - family-names: "[CONFIRM]"
+      given-names: "[CONFIRM]"
+    # Add remaining authors in manuscript order
+  journal: "[CONFIRM -- target: Analytical Chemistry]"
+  year: 2026
+  doi: "[FILL IN ONCE ASSIGNED]"
+
+# ---------------------------------------------------------------------------
+# NOTE TO AUTHOR: every bracketed [CONFIRM ...] field above needs to be
+# filled in with real values before this file is usable. In particular:
+#   - Full author list, in manuscript order, with ORCIDs if available
+#   - Exact manuscript title (may differ slightly from working title above)
+#   - DOI, once assigned by the journal
+#   - GitHub repository URL, once the repository is created/made public
+# ---------------------------------------------------------------------------
