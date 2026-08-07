@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or the accompanying data, please cite the
+  manuscript below.
+title: >-
+  SSF3: Convergent Fragmentation and Hydrogen Redistribution Limit
+  Structure-Spectrum Fidelity Across the METLIN Reference Library
+type: software
+authors:
+  - family-names: "Uritboonthai"
+    given-names: "Winnie"
+    affiliation: "Scripps Center for Metabolomics and Mass Spectrometry, Scripps Research"
+  - family-names: "Hoang"
+    given-names: "Linh"
+    affiliation: "Scripps Center for Metabolomics and Mass Spectrometry, Scripps Research"
+  - family-names: "Siuzdak"
+    given-names: "Gary"
+    affiliation: "Scripps Center for Metabolomics and Mass Spectrometry, Scripps Research"
+    email: "siuzdak@scripps.edu"
+repository-code: "https://github.com/Scripps-Center-for-Metabolomics/SSF3v2"
+license: MIT
+version: "1.0.0"
+date-released: "2026-08-06"
+preferred-citation:
+  type: article
+  title: >-
+    Convergent fragmentation: a small, shared ion vocabulary underlies the
+    limits of structure-spectrum fidelity
+  authors:
+    - family-names: "Uritboonthai"
+      given-names: "Winnie"
+    - family-names: "Hoang"
+      given-names: "Linh"
+    - family-names: "Siuzdak"
+      given-names: "Gary"
+  journal: "ChemRxiv"
+  year: 2026
+  doi: "10.26434/chemrxiv.15007030/v1"
