@@ -73,7 +73,6 @@ matching tolerance used throughout.
 | Table 2 / Figure 4 (prevalence by collision energy) | `ion_family_analysis.scan_corpus_checkpointed` | `data/processed/corpus_scan__count_histogram_all_energies.json`, `corpus_scan__polarity_split.json`, `corpus_scan__polarity_counts.json` |
 | Bond-environment analysis | `hydrogen_redistribution.py` (Phase 2) | `data/processed/corpus_scan__bond_env_phase2.json` |
 | Non-convergent-compound characterization (Discussion) | `ion_family_analysis.py` (peak count / MW / polarity profiling) | `data/processed/corpus_scan__zero_ion_profile.json`, `corpus_scan__ceiling_check.json` |
-| Universal Neutral Losses section | **`scripts/neutral_loss_analysis.py` is a placeholder -- see file docstring. This code was not developed in the session that produced the rest of this repository and needs to be sourced separately before submission.** | -- |
 
 `figures/` contains the actual published PNGs for Figures 1, 2, and 5, plus
 the graphical abstract, for direct reference alongside the code that
@@ -84,7 +83,7 @@ produced them.
 ## 4. Installation and running the code
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Scripps-Center-for-Metabolomics/SSF3v2.git
 cd SSF3v2
 pip install -r requirements.txt
 ```
@@ -138,6 +137,9 @@ structures and spectra themselves.
 (two illustrative compounds, methyl acetate and toluene) for demonstrating
 the pipeline without requiring access to real METLIN data.
 
+Reproduction of the full-corpus statistics requires separate access to the
+METLIN 960K reference library (see §6).
+
 ---
 
 ## 6. METLIN data access
@@ -147,9 +149,9 @@ not included in this repository and cannot be freely redistributed here.**
 All full-corpus statistics reported in the manuscript were computed against
 this corpus; reproducing them from scratch requires separate access.
 
-[PLACEHOLDER -- confirm and insert the actual access process, e.g.:]
-> METLIN data access can be requested at [URL], subject to [terms]. Contact
-> [name/email] for questions about data access for reproduction purposes.
+METLIN is available at https://metlin.scripps.edu. Contact
+siuzdak@scripps.edu with questions about data access for reproduction
+purposes.
 
 ---
 
@@ -157,11 +159,10 @@ this corpus; reproducing them from scratch requires separate access.
 
 See `CITATION.cff` for the structured citation record.
 
-**[PLACEHOLDER -- manuscript citation once finalized:]**
-> [Authors]. [Title]. *[Journal]*, [year]. DOI: [pending]
+Uritboonthai, W., Hoang, L. & Siuzdak, G. Convergent fragmentation: a
+small, shared ion vocabulary underlies the limits of structure–spectrum
+fidelity. *ChemRxiv* (2026).
+https://doi.org/10.26434/chemrxiv.15007030/v1
 
-**Contact:** [PLACEHOLDER -- corresponding author name and email]
-
----
-
-
+**Contact:** Gary Siuzdak, Scripps Center for Metabolomics and Mass
+Spectrometry, Scripps Research -- siuzdak@scripps.edu
