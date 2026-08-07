@@ -4,12 +4,6 @@ Code and processed data supporting the manuscript investigating why tandem
 mass spectral similarity is an imperfect proxy for structural relatedness
 across the METLIN reference library.
 
-> **Status note:** this repository was assembled to accompany a manuscript
-> currently on hold pending review of a companion paper (SSF1). Several
-> items below are placeholders that need to be completed before this
-> repository is made public or submitted alongside a reviewer response --
-> search this README and the codebase for `[CONFIRM ...]` and `PLACEHOLDER`.
-
 ---
 
 ## 1. The scientific question and principal finding
@@ -91,7 +85,7 @@ produced them.
 
 ```bash
 git clone <repository-url>
-cd SSF3-recurrent-fragmentation
+cd SSF3v2
 pip install -r requirements.txt
 ```
 
@@ -170,16 +164,4 @@ See `CITATION.cff` for the structured citation record.
 
 ---
 
-## Known gaps in this repository (confirm/resolve before publishing)
 
-- `scripts/neutral_loss_analysis.py` is an unimplemented placeholder (see file).
-- `notebooks/walkthrough.ipynb` demonstrates the pipeline on synthetic data
-  only; a full-corpus reproduction requires separate METLIN access (§5–6).
-- `LICENSE` defaults to MIT; confirm against institutional/journal policy.
-- `CITATION.cff` and the citation section above have placeholder author,
-  DOI, and URL fields.
-- Winnie Uritboonthai's and Linh Hoang's sign-off on the dual-mechanism
-  classifier design (`hydrogen_redistribution.py`) was flagged repeatedly
-  during development as the one significant validation item never formally
-  closed out -- confirm this has happened before treating the classifier as
-  fully validated.
