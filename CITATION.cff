@@ -1,39 +1,38 @@
 cff-version: 1.2.0
 message: >-
   If you use this software or the accompanying data, please cite the
-  manuscript below. [PLACEHOLDER -- confirm all fields before publishing.]
+  manuscript below.
 title: >-
   SSF3: Convergent Fragmentation and Hydrogen Redistribution Limit
   Structure-Spectrum Fidelity Across the METLIN Reference Library
-  [CONFIRM EXACT TITLE]
 type: software
 authors:
-  - family-names: "[CONFIRM]"
-    given-names: "[CONFIRM]"
-    affiliation: "Scripps Center for Metabolomics and Mass Spectrometry, The Scripps Research Institute"
-    orcid: "[CONFIRM]"
-  # Add remaining authors in manuscript order
-repository-code: "[CONFIRM GITHUB URL ONCE REPOSITORY IS CREATED]"
+  - family-names: "Uritboonthai"
+    given-names: "Winnie"
+    affiliation: "Scripps Center for Metabolomics and Mass Spectrometry, Scripps Research"
+  - family-names: "Hoang"
+    given-names: "Linh"
+    affiliation: "Scripps Center for Metabolomics and Mass Spectrometry, Scripps Research"
+  - family-names: "Siuzdak"
+    given-names: "Gary"
+    affiliation: "Scripps Center for Metabolomics and Mass Spectrometry, Scripps Research"
+    email: "siuzdak@scripps.edu"
+repository-code: "https://github.com/Scripps-Center-for-Metabolomics/SSF3v2"
 license: MIT
 version: "1.0.0"
-date-released: "[CONFIRM RELEASE DATE]"
+date-released: "2026-08-06"
 preferred-citation:
   type: article
   title: >-
-    [CONFIRM EXACT MANUSCRIPT TITLE -- see manuscript title page]
+    Convergent fragmentation: a small, shared ion vocabulary underlies the
+    limits of structure-spectrum fidelity
   authors:
-    - family-names: "[CONFIRM]"
-      given-names: "[CONFIRM]"
-    # Add remaining authors in manuscript order
-  journal: "[CONFIRM -- target: Analytical Chemistry]"
+    - family-names: "Uritboonthai"
+      given-names: "Winnie"
+    - family-names: "Hoang"
+      given-names: "Linh"
+    - family-names: "Siuzdak"
+      given-names: "Gary"
+  journal: "ChemRxiv"
   year: 2026
-  doi: "[FILL IN ONCE ASSIGNED]"
-
-# ---------------------------------------------------------------------------
-# NOTE TO AUTHOR: every bracketed [CONFIRM ...] field above needs to be
-# filled in with real values before this file is usable. In particular:
-#   - Full author list, in manuscript order, with ORCIDs if available
-#   - Exact manuscript title (may differ slightly from working title above)
-#   - DOI, once assigned by the journal
-#   - GitHub repository URL, once the repository is created/made public
-# ---------------------------------------------------------------------------
+  doi: "10.26434/chemrxiv.15007030/v1"
